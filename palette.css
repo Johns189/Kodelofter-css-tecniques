@@ -1,0 +1,15 @@
+html {
+    --color-text: rgb(242, 234, 232);
+    --color-background: rgb(15, 10, 9);
+    --color-primary: rgb(205, 172, 168);
+    --color-secondary: rgb(82, 98, 57);
+    --color-accent: rgb(141, 180, 125);
+    }
+
+.background-primary {
+    background-color: var(--color-primary);
+}
+
+.background-secondary {
+    background-color: var(--color-secondary)
+}
