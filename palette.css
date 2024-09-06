@@ -1,10 +1,18 @@
-html {
+:root[data-theme="light"] {
+    --clolr-text: rgb(23, 15, 13);
+    --clolr-background: rgb(245, 240, 239);
+    --clolr-primary: rgb(87, 54, 50);
+    --clolr-secondary: rgb(183, 198, 159);
+    --clolr-accent: rgb(90, 130, 74);
+  }
+  :root[data-theme="dark"] {
     --color-text: rgb(242, 234, 232);
     --color-background: rgb(15, 10, 9);
     --color-primary: rgb(205, 172, 168);
     --color-secondary: rgb(82, 98, 57);
     --color-accent: rgb(141, 180, 125);
-    }
+  }
+  
 
 .background-primary {
     background-color: var(--color-primary);
@@ -12,4 +20,8 @@ html {
 
 .background-secondary {
     background-color: var(--color-secondary)
+}
+
+.text-accent {
+    color: var(--color-accent)
 }
